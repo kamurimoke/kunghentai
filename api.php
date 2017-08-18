@@ -44,7 +44,7 @@ if (strpos($_msg, 'เพิ่มความหื่น') !== false) {
     $arrPostData = array();
     $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
     $arrPostData['messages'][0]['type'] = "text";
-    $arrPostData['messages'][0]['text'] = 'ขอบคุณที่สอนนะน้้องสาววววววว (เสียงสั่น)';
+    $arrPostData['messages'][0]['text'] = 'ขอบคุณที่สอนนะน้องสาววววววว (เสียงสั่น)';
   }
 }else{
   if($isData >0){
